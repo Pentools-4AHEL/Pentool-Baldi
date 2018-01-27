@@ -15,7 +15,7 @@ public class IPGetter {
     }
 
     public static void main(String[] args) {
-        PortScanner scanner = new PortScanner("localhost", 1, 65535, 100, 500);
+        PortScanner scanner = new PortScanner("192.168.1.1", 1, 65535, 100000, 500);
         //scanner.getOpenPortList();
 
 		/*IPGetter getter = new IPGetter("www.apple.at");
